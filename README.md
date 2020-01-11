@@ -1,2 +1,2 @@
 # JavaHW
-My ITMO java homeworks
+My java homeworks
