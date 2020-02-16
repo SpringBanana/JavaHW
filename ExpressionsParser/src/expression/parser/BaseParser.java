@@ -51,7 +51,7 @@ public class BaseParser {
         }
     }
 
-    protected void skipWhitespace() {
+        protected void skipWhitespace() {
         while (test(' ') || test('\r') || test('\n') || test('\t')) {
         }
     }
