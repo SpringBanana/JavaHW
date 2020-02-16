@@ -1,0 +1,13 @@
+package expression.parser;
+
+import expression.CommonExpression;
+import expression.TripleExpression;
+import expression.exceptions.ParsingException;
+import expression.exceptions.WrongSymbolException;
+
+/**
+ * @author Georgiy Korneev (kgeorgiy@kgeorgiy.info)
+ */
+public interface Parser {
+    TripleExpression parse(String expression) throws ParsingException;
+}
