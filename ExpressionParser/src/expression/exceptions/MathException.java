@@ -1,7 +1,7 @@
 package expression.exceptions;
 
 public class MathException extends EvaluationException {
-    public MathException() {
-        super("Math Exception\n");
+    public MathException(String MathException) {
+        super("Math Exception: " + MathException);
     }
 }

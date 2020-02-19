@@ -11,7 +11,7 @@ public strictfp class CheckedDivide extends AbstractBinaryOperator {
     @Override
     public int evaluate(int x, int y) throws OverflowException, DivisionByZeroException {
         if ((x == Integer.MIN_VALUE) && (y == -1)) {
-            throw new OverflowException();
+            throw new OverflowException(" when divide " + x + " / " + y);
         }
         if (y == 0) {
             throw new DivisionByZeroException();

@@ -22,7 +22,7 @@ public strictfp class CheckedMultiply extends AbstractBinaryOperator {
                 || x < Integer.MAX_VALUE/y
                 : y == -1
                 && x == Integer.MIN_VALUE) ) {
-            throw new OverflowException();
+            throw new OverflowException(" when multiply " + x + " * " + y);
         }
     }
 

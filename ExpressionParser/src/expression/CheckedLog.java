@@ -13,7 +13,7 @@ public class CheckedLog extends AbstractBinaryOperator {
     @Override
     public int evaluate(int x, int y) throws EvaluationException {
         if (x <= 0 || y <= 0 || y == 1)
-            throw new MathException();
+            throw new MathException("Integer overflow");
         int i = 1;
         int result = 0;
         while (i <= x) {

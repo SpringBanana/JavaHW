@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1aaf2833-894e-49e6-bb22-70c9f9c4e053" name="Default Changelist" comment="" />
+    <list default="true" id="1aaf2833-894e-49e6-bb22-70c9f9c4e053" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpressionParser/META-INF/ExpressionParser.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpressionParser/expression/CheckedAdd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpressionParser/expression/CheckedAdd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpressionParser/expression/CheckedDivide.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpressionParser/expression/CheckedDivide.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpressionParser/expression/CheckedMultiply.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpressionParser/expression/CheckedMultiply.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpressionParser/expression/CheckedNegate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpressionParser/expression/CheckedNegate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpressionParser/expression/CheckedSubtract.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpressionParser/expression/CheckedSubtract.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpressionParser/expression/exceptions/OverflowException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpressionParser/expression/exceptions/OverflowException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ExpressionParser/expression/parser/ExpressionParser$ParseExpressions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ExpressionParser/expression/parser/ExpressionParser$ParseExpressions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/CheckedAdd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/CheckedAdd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/CheckedDivide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/CheckedDivide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/CheckedLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/CheckedLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/CheckedMultiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/CheckedMultiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/CheckedNegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/CheckedNegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/CheckedPower.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/CheckedPower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/CheckedSubtract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/CheckedSubtract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/exceptions/EvaluationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/exceptions/EvaluationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/exceptions/MathException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/exceptions/MathException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/exceptions/OverflowException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/exceptions/OverflowException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/expression/parser/ExpressionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/expression/parser/ExpressionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SumDouble/SumDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SumDouble/SumDouble.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +39,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XQtdn1UpsWwrTGn0SMK2NuZjIw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,6 +51,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
@@ -121,6 +150,8 @@
       <workItem from="1581663755586" duration="516000" />
       <workItem from="1581669840108" duration="4167000" />
       <workItem from="1581872477689" duration="973000" />
+      <workItem from="1582028416036" duration="1872000" />
+      <workItem from="1582130319344" duration="275000" />
     </task>
     <servers />
   </component>
@@ -168,22 +199,22 @@
       <screen x="0" y="45" width="1676" height="898" />
     </state>
     <state x="617" y="252" key="FileChooserDialogImpl/0.45.1676.898@0.45.1676.898" timestamp="1581238237800" />
-    <state width="1632" height="243" key="GridCell.Tab.0.bottom" timestamp="1581872842074">
+    <state width="1632" height="677" key="GridCell.Tab.0.bottom" timestamp="1582130714858">
       <screen x="0" y="45" width="1676" height="898" />
     </state>
-    <state width="1632" height="243" key="GridCell.Tab.0.bottom/0.45.1676.898@0.45.1676.898" timestamp="1581872842074" />
-    <state width="1632" height="243" key="GridCell.Tab.0.center" timestamp="1581872842074">
+    <state width="1632" height="677" key="GridCell.Tab.0.bottom/0.45.1676.898@0.45.1676.898" timestamp="1582130714858" />
+    <state width="1632" height="677" key="GridCell.Tab.0.center" timestamp="1582130714858">
       <screen x="0" y="45" width="1676" height="898" />
     </state>
-    <state width="1632" height="243" key="GridCell.Tab.0.center/0.45.1676.898@0.45.1676.898" timestamp="1581872842074" />
-    <state width="1632" height="243" key="GridCell.Tab.0.left" timestamp="1581872842074">
+    <state width="1632" height="677" key="GridCell.Tab.0.center/0.45.1676.898@0.45.1676.898" timestamp="1582130714858" />
+    <state width="1632" height="677" key="GridCell.Tab.0.left" timestamp="1582130714858">
       <screen x="0" y="45" width="1676" height="898" />
     </state>
-    <state width="1632" height="243" key="GridCell.Tab.0.left/0.45.1676.898@0.45.1676.898" timestamp="1581872842074" />
-    <state width="1632" height="243" key="GridCell.Tab.0.right" timestamp="1581872842074">
+    <state width="1632" height="677" key="GridCell.Tab.0.left/0.45.1676.898@0.45.1676.898" timestamp="1582130714858" />
+    <state width="1632" height="677" key="GridCell.Tab.0.right" timestamp="1582130714858">
       <screen x="0" y="45" width="1676" height="898" />
     </state>
-    <state width="1632" height="243" key="GridCell.Tab.0.right/0.45.1676.898@0.45.1676.898" timestamp="1581872842074" />
+    <state width="1632" height="677" key="GridCell.Tab.0.right/0.45.1676.898@0.45.1676.898" timestamp="1582130714858" />
     <state x="0" y="140" key="SettingsEditor" timestamp="1581669853186">
       <screen x="0" y="45" width="1676" height="898" />
     </state>
@@ -196,10 +227,10 @@
       <screen x="0" y="45" width="1676" height="898" />
     </state>
     <state x="567" y="259" key="extract.method.dialog/0.45.1676.898@0.45.1676.898" timestamp="1581672738527" />
-    <state x="579" y="113" key="refactoring.ChangeSignatureDialog" timestamp="1581624940345">
+    <state x="579" y="113" key="refactoring.ChangeSignatureDialog" timestamp="1582130384407">
       <screen x="0" y="45" width="1676" height="898" />
     </state>
-    <state x="579" y="113" key="refactoring.ChangeSignatureDialog/0.45.1676.898@0.45.1676.898" timestamp="1581624940345" />
+    <state x="579" y="113" key="refactoring.ChangeSignatureDialog/0.45.1676.898@0.45.1676.898" timestamp="1582130384407" />
     <state x="494" y="227" key="run.anything.popup" timestamp="1581013206701">
       <screen x="0" y="45" width="1676" height="898" />
     </state>

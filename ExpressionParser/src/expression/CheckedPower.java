@@ -2,7 +2,6 @@ package expression;
 
 import expression.exceptions.EvaluationException;
 import expression.exceptions.MathException;
-import expression.exceptions.OverflowException;
 
 public class CheckedPower extends AbstractBinaryOperator {
     public CheckedPower(CommonExpression x, CommonExpression y) {
@@ -12,7 +11,7 @@ public class CheckedPower extends AbstractBinaryOperator {
     @Override
     public int evaluate(int x, int y) throws EvaluationException {
         if (x == 0 && y == 0 || y < 0) {
-            throw new MathException();
+            throw new MathException("Integer overflow");
         }
         int result = 1;
         while (y != 0) {

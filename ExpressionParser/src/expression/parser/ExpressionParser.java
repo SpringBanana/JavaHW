@@ -7,6 +7,7 @@ import expression.exceptions.ParsingException;
 import expression.exceptions.WrongSymbolException;
 
 import java.util.List;
+import java.util.function.BiFunction;
 
 public class ExpressionParser implements Parser {
 
@@ -37,6 +38,7 @@ public class ExpressionParser implements Parser {
             "x", "y", "z"
     );
 
+
     private final static List<List<OperationsConstructor>> BIN_LEVEL = List.of(
             List.of(operator(CheckedAdd::new, "+"), operator(CheckedSubtract::new, "-")),
             List.of(operator(CheckedMultiply::new, "*"), operator(CheckedDivide::new, "/")),
@@ -58,7 +60,7 @@ public class ExpressionParser implements Parser {
                     try {
                         return new Const(Integer.parseInt("-" + number));
                     } catch (NumberFormatException e) {
-                        throw new OverflowException();
+                        throw new OverflowException(" in " + '-' + number);
                     }
                 } else {
                     return new CheckedNegate(parseElement());
@@ -67,7 +69,7 @@ public class ExpressionParser implements Parser {
                 try {
                     return new Const(Integer.parseInt(number));
                 } catch (NumberFormatException e) {
-                    throw new OverflowException();
+                    throw new OverflowException(" in " + number);
                 }
             } else if (test('(')) {
                 CommonExpression result = parse(0);

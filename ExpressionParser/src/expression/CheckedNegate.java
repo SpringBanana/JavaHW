@@ -11,7 +11,7 @@ public strictfp class CheckedNegate extends AbstractUnaryOperator {
     @Override
     public int calculate(int x) throws OverflowException {
         if (x == Integer.MIN_VALUE)
-            throw new OverflowException();
+            throw new OverflowException(" " + x);
         return -x;
     }
 
