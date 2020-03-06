@@ -80,7 +80,7 @@ public class ExpressionParser implements Parser {
                 return result;
             } else {
                 for (String name : VARIABLES) {
-                    if (test(name.charAt(0))) {
+                    if (expect(name)) {
                         return new Variable(name);
                     }
                 }
